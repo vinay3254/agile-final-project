@@ -1,0 +1,147 @@
+{
+  "captured_at": "2026-11-01T14:00:52.536371+00:00",
+  "simulation": true,
+  "project": "https://github.com/users/vinay3254/projects/2",
+  "sprint_scope": [
+    1,
+    2,
+    3,
+    4,
+    9
+  ],
+  "initial_sprint_points": 15,
+  "completed_sprint_points": 3,
+  "remaining_sprint_points": 12,
+  "stories": [
+    {
+      "requirement": 1,
+      "title": "Create a product in the catalog",
+      "url": "https://github.com/vinay3254/agile-final-project/issues/1",
+      "status": "Done",
+      "estimate": 3.0,
+      "assignee": "vinay3254",
+      "milestone": "Sprint 1 - Product Catalog Foundation",
+      "labels": [
+        "enhancement",
+        "Sprint Backlog"
+      ]
+    },
+    {
+      "requirement": 2,
+      "title": "Retrieve a product from the catalog",
+      "url": "https://github.com/vinay3254/agile-final-project/issues/2",
+      "status": "In Progress",
+      "estimate": 2.0,
+      "assignee": "vinay3254",
+      "milestone": "Sprint 1 - Product Catalog Foundation",
+      "labels": [
+        "enhancement",
+        "Sprint Backlog"
+      ]
+    },
+    {
+      "requirement": 3,
+      "title": "Update a product in the catalog",
+      "url": "https://github.com/vinay3254/agile-final-project/issues/3",
+      "status": "Review/QA",
+      "estimate": 3.0,
+      "assignee": "vinay3254",
+      "milestone": "Sprint 1 - Product Catalog Foundation",
+      "labels": [
+        "enhancement",
+        "Sprint Backlog"
+      ]
+    },
+    {
+      "requirement": 4,
+      "title": "Delete a product from the catalog",
+      "url": "https://github.com/vinay3254/agile-final-project/issues/4",
+      "status": "Sprint Backlog",
+      "estimate": 2.0,
+      "assignee": "vinay3254",
+      "milestone": "Sprint 1 - Product Catalog Foundation",
+      "labels": [
+        "enhancement",
+        "Sprint Backlog"
+      ]
+    },
+    {
+      "requirement": 9,
+      "title": "Host the product catalog in the cloud",
+      "url": "https://github.com/vinay3254/agile-final-project/issues/9",
+      "status": "Sprint Backlog",
+      "estimate": 5.0,
+      "assignee": "vinay3254",
+      "milestone": "Sprint 1 - Product Catalog Foundation",
+      "labels": [
+        "Technical Debt",
+        "Sprint Backlog"
+      ]
+    },
+    {
+      "requirement": 10,
+      "title": "Automate deployment of catalog changes to the cloud",
+      "url": "https://github.com/vinay3254/agile-final-project/issues/10",
+      "status": "Product Backlog",
+      "estimate": 5.0,
+      "assignee": "vinay3254",
+      "milestone": "Sprint 1 - Product Catalog Foundation",
+      "labels": [
+        "Technical Debt",
+        "Product Backlog"
+      ]
+    },
+    {
+      "requirement": 5,
+      "title": "Like a product in the catalog",
+      "url": "https://github.com/vinay3254/agile-final-project/issues/5",
+      "status": "Product Backlog",
+      "estimate": 2.0,
+      "assignee": "vinay3254",
+      "milestone": "Sprint 1 - Product Catalog Foundation",
+      "labels": [
+        "enhancement",
+        "Product Backlog"
+      ]
+    },
+    {
+      "requirement": 6,
+      "title": "Dislike a product in the catalog",
+      "url": "https://github.com/vinay3254/agile-final-project/issues/6",
+      "status": "Product Backlog",
+      "estimate": 2.0,
+      "assignee": "vinay3254",
+      "milestone": "Sprint 1 - Product Catalog Foundation",
+      "labels": [
+        "enhancement",
+        "Product Backlog"
+      ]
+    },
+    {
+      "requirement": 7,
+      "title": "List all products in the catalog",
+      "url": "https://github.com/vinay3254/agile-final-project/issues/7",
+      "status": "Product Backlog",
+      "estimate": 3.0,
+      "assignee": "vinay3254",
+      "milestone": "Sprint 1 - Product Catalog Foundation",
+      "labels": [
+        "enhancement",
+        "Product Backlog"
+      ]
+    },
+    {
+      "requirement": 8,
+      "title": "Query a subset of products in the catalog",
+      "url": "https://github.com/vinay3254/agile-final-project/issues/8",
+      "status": "Product Backlog",
+      "estimate": 3.0,
+      "assignee": "vinay3254",
+      "milestone": "Sprint 1 - Product Catalog Foundation",
+      "labels": [
+        "enhancement",
+        "Product Backlog"
+      ]
+    }
+  ]
+}
