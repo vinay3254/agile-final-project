@@ -1,42 +1,32 @@
 # Agile Final Project
 
-Agile planning exercise for an e-commerce product catalog. This repository contains planning artifacts, not a working product backend.
+An Agile planning exercise for an e-commerce product catalog. Workflow progress represents a course simulation; this repository does not contain the backend application.
 
-## Scenario and assumptions
+## Project links
 
-The ten stories use the commonly published IBM Introduction to Agile Development and Scrum product-catalog scenario: create, retrieve, update, delete, like, dislike, list, query, cloud hosting, and automated deployment. This scenario is inferred from the assignment checklist and needs confirmation against the learner's course lab.
+* [Public Kanban board](https://github.com/users/vinay3254/projects/2/views/2)
+* [Story details and estimates](https://github.com/users/vinay3254/projects/2/views/1)
+* [Sprint 1 milestone](https://github.com/vinay3254/agile-final-project/milestone/1)
+* [Sprint 1 burndown: remaining story points](https://github.com/users/vinay3254/projects/2/insights/1)
+* [User story template](.github/ISSUE_TEMPLATE/user-story.md)
+* [Submission checklist](docs/submission.md)
 
-## Planning artifacts
+## Stakeholder stories
 
-* [User story template](.github/ISSUE_TEMPLATE/user-story.md), with role, function, benefit, and Gherkin acceptance criteria.
-* [Ten stakeholder stories](../../issues), all assigned to vinay3254 and labeled by work type and initial workflow.
-* Requirements 9 and 10 carry the **Technical Debt** label.
-* [Sprint 1 - Product Catalog Foundation](../../milestone/1), with a two-week due date.
-* Every story includes a proposed estimate. Project numeric estimate fields must also be populated when Projects access is available.
+The ten stories follow the commonly published IBM product-catalog scenario, inferred from the course checklist: create, retrieve, update, delete, like, dislike, list, query, cloud hosting, and deployment automation. Confirm this scenario against the course lab if its requirements differ.
 
-## Workflow
+Every story has a role, function, benefit, Gherkin acceptance criteria, work-type labels, an assignee, a milestone, and a numeric **Estimate** project field. Requirements 9 and 10 are labeled **Technical Debt**.
 
-Required board columns: Product Backlog, Sprint Backlog, In Progress, Review/QA, Done.
-Initial sprint selection: requirements 1, 2, 3, 4, and 9 (15 points).
-Backlog refinement order: 1, 2, 3, 4, 9, 10, 5, 6, 7, 8.
-All stories are assigned to the milestone to match the submission checklist; the Sprint Backlog label identifies the initial sprint selection.
+## Workflow and sprint
 
-Any later movements into Done are simulated course progress, not claims that backend code exists.
+Board columns: **Product Backlog**, **Sprint Backlog**, **In Progress**, **Review/QA**, **Done**.
 
-## Submission evidence still required
+Backlog refinement order: 1, 2, 3, 4, 9, 10, 5, 6, 7, 8. The selected sprint scope is requirements 1, 2, 3, 4, and 9, totaling **15 story points**. The **Sprint Backlog** label identifies membership in this selected scope even after a story moves into another workflow column. **Status** determines its current column.
 
-Capture screenshots from the actual project board and sprint chart:
+Current simulated state: #1 Done; #2 In Progress; #3 Review/QA; #4 and #9 Sprint Backlog; remaining stories Product Backlog. All ten stories are assigned to **vinay3254** and to the titled milestone, matching the submission checklist. Milestone membership includes future backlog work; selected sprint scope is defined by its label.
 
-| Task | Required file or link |
-| --- | --- |
-| 1 | `01-kanban-board.png` |
-| 2 | `02-product-backlog.png` |
-| 3 | Public URL of `.github/ISSUE_TEMPLATE/user-story.md` |
-| 4 | `04-labeled-technical-debt.png` |
-| 5 | `05-sprint-created.png` |
-| 6 | `06-estimate-assigned.png` |
-| 7 | `07-assigned-yourself.png` |
-| 8 | `08-sprint-assigned.png` |
-| 9 | `09-burndown-chart.png` |
+## Burndown chart
 
-Project board, chart configuration, and screenshots remain pending until Projects authorization is available. No simulated screenshot is presented as GitHub evidence.
+The native GitHub Insights line chart uses **Time** on the X-axis and **Sum of Estimate** on the Y-axis. Its saved filter selects the milestone and sprint-scope label and excludes **Done**. Current selected scope has **12 remaining points** after 3 simulated points move to Done.
+
+History starts on the project's creation date. The initial scope addition can appear as an upward jump from zero; no multi-day completion history is claimed. The chart is ready to track later status changes. [Verified snapshot](docs/sprint-snapshot.json) records current values.
